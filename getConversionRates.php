@@ -1,5 +1,8 @@
 <?php
     require_once("inc/httpGet.php");
+	require_once("inc/keys.config.php");
+	
+	
     $ratesFile="data/latest.json";
     $writeToFile = false;
     $updateFileDuration = 4;     // in hours
@@ -23,7 +26,7 @@
     
     if($writeToFile) {
         
-        $data = httpGet("https://openexchangerates.org/latest.json", array("app_id" => "c7bff540bfe440c7b33404c905aa38bd"));
+        $data = httpGet("https://openexchangerates.org/latest.json", array("app_id" => OXR_APP_ID));
         $data = $data["content"];
         
         $fp=fopen($ratesFile,"w+");
