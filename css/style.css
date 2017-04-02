@@ -1,0 +1,11 @@
+body {
+  font-family: "Segoe UI", "Arial";
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+  color: #333; }
+  body #wrapper {
+    width: 800px;
+    margin: 0px auto; }
+
+/*# sourceMappingURL=style.css.map */

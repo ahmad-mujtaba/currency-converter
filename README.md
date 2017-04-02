@@ -1,5 +1,3 @@
 # currency-converter
 
-hello world
-
-blah
+Rebuilding http://dynamicguru.com/currency-converter
