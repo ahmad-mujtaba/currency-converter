@@ -1,5 +1,8 @@
+@import 'reset';
+
 $font-stack: "Segoe UI", "Arial";
 $color: #333;
+$color-error: #e00;
 
 body {
     font-family: $font-stack;
@@ -12,4 +15,39 @@ body {
         width : 800px;
         margin:0px auto;
     }
+    
+    
+    #conversion_panel {
+        .col {
+            box-sizing: border-box;
+            width: 25%;
+            float: left;
+            
+            
+            
+            &.error {
+                color: $color-error;
+                
+                input {
+                    color:$color-error;
+                    border-bottom-color: $color-error;
+                }
+            }
+        }
+    }
+    
+    input {
+        border: none;
+        border-bottom: 2px solid #777;
+        
+        &:focus, &:active {
+            border-bottom: 2px solid #09f;
+        }
+    }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }

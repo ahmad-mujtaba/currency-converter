@@ -6,12 +6,41 @@
     </head>
     <body>
         <div id="wrapper">
-            <input type="text" id="fromAmount"> USD equals <strong id="toAmount"></strong> INR         
+            
+            <div id="conversion_panel" class="clearfix">
+                <div class='col amountEl'>
+                    Amount <br>
+                    <input type="text" id="amount">  
+                </div>
+                <div class='col sourceEl'>
+                    Source <br>
+                    <input list="currencies" id="sourceCurrency">  
+                </div>                
+                <div class='col destEl'>
+                    Destination <br>
+                    <input list="currencies" id="destCurrency"> 
+                </div>
+                <div class='col'>
+                    <button id='convert'>Convert</button>
+                </div>
+                
+                <datalist id="currencies"></datalist>
+            </div>
+            
+            <div id="result">
+                
+            </div>
+            
+            
+            
+            
+                
         </div>
         
         
         <!-- scripts -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.blockUI/2.70/jquery.blockUI.js"></script>        
         <script src="js/app.js"></script>        
     </body>
 </html>

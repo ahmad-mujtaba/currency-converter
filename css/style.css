@@ -1,11 +1,2 @@
-body {
-  font-family: "Segoe UI", "Arial";
-  font-size: 16px;
-  margin: 0px;
-  padding: 0px;
-  color: #333; }
-  body #wrapper {
-    width: 800px;
-    margin: 0px auto; }
-
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;font-family:inherit;font-size:100%;font-style:inherit;font-weight:inherit;margin:0;outline:0;padding:0;vertical-align:baseline}html{font-size:62.5%;overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block}ol,ul{list-style:none}table{border-collapse:separate;border-spacing:0}caption,th,td{font-weight:normal;text-align:left}blockquote:before,blockquote:after,q:before,q:after{content:""}blockquote,q{quotes:"" ""}a:focus{outline:thin dotted}a:hover,a:active{outline:0}a img{border:0}body{font-family:"Segoe UI","Arial";font-size:16px;margin:0px;padding:0px;color:#333}body #wrapper{width:800px;margin:0px auto}body #conversion_panel .col{box-sizing:border-box;width:25%;float:left}body #conversion_panel .col.error{color:#e00}body #conversion_panel .col.error input{color:#e00;border-bottom-color:#e00}body input{border:none;border-bottom:2px solid #777}body input:focus,body input:active{border-bottom:2px solid #09f}.clearfix:after{content:"";display:table;clear:both}
 /*# sourceMappingURL=style.css.map */
